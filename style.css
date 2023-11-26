@@ -1,0 +1,321 @@
+
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+logo{
+    color: white;
+
+}
+h5{
+    color: white;
+    position:relative;
+    left:36px;
+    bottom:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+.nav{
+    word-spacing: 0px;
+    background-color: grey;
+}
+section{
+    color:white;
+    display:flex;
+    direction: right;
+    border-style:ridge;
+    width:25%;
+    height:10%;
+}
+.search{
+    position:relative;
+    left:80%;
+    top:0px;
+    bottom:0px;
+    right:8px;
+}
+.second{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    left: 0px;
+    bottom:690px;
+    background: none;
+}
+.mic{
+    position:relative;
+    left:250px;
+}
+.create{
+    position:relative;
+    left:470px;
+}
+.more{
+    position:relative;
+    left: 480px;
+}
+.bell{
+    position:relative;
+    left:490px;
+}
+.user{
+    position:relative;
+    left:500px;
+}
+.hr{
+    position:relative;
+    left:220px;
+    bottom:690px;
+
+}
+.position{
+    color: white;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom:690px;
+    left:260px;
+
+}
+.all{
+    border-style:ridge;
+    width:50px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:180px;
+    background-color: grey;
+    
+}
+.cookstudio{
+    border-style:ridge;
+    width:100px;
+    height:20px;
+    border-radius: 8px;
+    position:relative;
+    right:170px;
+    background-color:grey;
+    
+}
+.ux{
+    border-style:ridge;
+    width:60px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:160px;
+    background-color:grey;
+    
+}
+.casestudy{
+    border-style:ridge;
+    width:80px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:150px;
+    background-color:grey;
+   
+}
+.music{
+    border-style:ridge;
+    width:60px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:140px;
+    background-color:grey;
+    
+}
+.bnaglalofi{
+    border-style:ridge;
+    width:70px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:130px;
+    background-color:grey;
+    
+}
+.tour{
+    border-style:ridge;
+    width:60px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:120px;
+    background-color:grey;
+    
+}
+.saintmarin{
+    border-style:ridge;
+    width:80px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:110px;
+    background-color:grey;
+    
+}
+.tech{
+    border-style:ridge;
+    width:60px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:100px;
+    background-color:grey;
+   
+}
+.interface{
+    border-style:ridge;
+    width:150px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:90px;
+    background-color:grey;
+    
+}
+.compute{
+    border-style:ridge;
+    width:60px;
+    height:20px;
+    border-radius: 5px;
+    position:relative;
+    right:80px;
+    background-color:grey;
+    
+}
+.second hr{
+    position:relative;
+    top:30px;
+}
+span{
+    color: white;
+}
+.video-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 3rem 1rem;
+    padding: 3rem 0;
+    margin: 0 1.5rem;
+    border-top: 4px solid #CCC;
+  }
+  
+  .video-section:first-child {
+    border-top: none;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thumbnail {
+    position: relative;
+    display: flex;
+  }
+  
+  .thumbnail::before {
+    content: attr(data-duration);
+    position: absolute;
+    background-color: rgba(0, 0, 0, .85);
+    color: white;
+    right: 5px;
+    bottom: 5px;
+    padding: .1em .3em;
+    border-radius: .3em;
+    font-size: .9rem;
+  }
+  
+  .thumbnail-image {
+    width: 30%;
+    height: 30%;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #AAA;
+    display:grid;
+    grid-template-rows: repeat(4,200px);
+    justify-content: center;
+  }
+  
+  .video-bottom-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+  
+  .channel-icon {
+    margin-right: .75rem;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #AAA;
+  }
+  
+  .video-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .video-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .video-channel-name {
+    margin-bottom: .1rem;
+    text-decoration: none;
+    transition: color 150ms;
+  }
+  
+  .video-channel-name:hover {
+    color: #111;
+  }
+  
+  .video-channel-name,
+  .video-metadata {
+    color: #555;
+  }
+  
+  .video-section-title {
+    grid-column: 1 / -1;
+    margin: -.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+  }
+  
+  .video-section-title-close {
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .videos {
+    background-color: #F9F9F9;
+  }
+  /* .thumbnail{
+    float:left;
+    left:70px;
+    width:50%;
+    padding:5px;
+  }
+   */
+   .video-container .thumbnail{
+    display:grid;
+    direction: row;
+    grid-template-columns: repeat(4,200px);
+    
+   }
